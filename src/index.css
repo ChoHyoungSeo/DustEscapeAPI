@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:"Roboto";
+}
+
+.search-bar button .fa-span { display: none; }
+.search-bar button span { display: inline-block; }
+.search-bar button.loading .fa-spin { display: inline-block; }
+.search-bar button.loading span { display: none; }
+
+td,th { 
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+svg {
+  height: 150px;
+}
+.map {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.emojiContainer {
+  text-align: center;
+}
+
+.emoji {
+  width: 130px;
+  height: 130px;
+  margin-top: 50px;
+}
+
+.description {
+  margin-top: 20px;
+}
+
+#cityDetail {
+  background-color: #18bc9c;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  height: 70px;
+  padding-top: 20px;
+}
+
+h1.misaeTitle {
+  color: #566270;
+  font-family: "Roboto";
+}
+
+.progress-bar {
+  width: 90%;
+  display: inline-block;
+  height: 30px;
+  color: rgb(95, 95, 97);
+}
+
+.aqiInfo {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding-bottom: 30px;
+  background-color: #18bc9c;
+  color: #FFFFFF;
+}
+
+.fa-arrow-down {
+  padding: 20px;
+}
+
+.searchBtn, .form-control {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.footer{
+  font-family: "Roboto";
+  font-size: 20px;
+  padding-top: 50px;
+  background-color: #18bc9c;
+  color: #FFFFFF;
+}
+
+.table {
+  font-family: 'Roboto';
+}
+
+.whiteTable {
+  color: white;
+}
+
+.cityBannerName, .cityBannerTime, h5, .description, .forecast, .btn-light, .alert, .weather-list {
+  font-family: 'Roboto';
+}
+
+.cityBannerName {
+  font-weight: bold;
+}
+
+.aqiIdx {
+  font-size: 20px;
+  padding-bottom: 100px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: blanchedalmond;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.chart{
+  width: 100px;
+}
+
+.aqiMap {
+  width: 80%;
+}
+
+@keyframes bounceIn {
+  0% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  60% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes moveUpDown {
+  0%{
+    padding-top: 0px;
+  }
+  50%{
+    padding-top: 3px;
+  }
+  100%{
+    padding-top: 0px;
+  }
+}
+
+.emojiContainer {
+  animation: bounceIn 2s;
+  animation-iteration-count: infinite;
+}
+
+.aqiInfo {
+  animation: moveUpDown 2s;
+  animation-iteration-count: infinite;
+}
+
+.footerNotice {
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+
+.btn-light {
+  font-style: italic;
+  font-weight: bold;
+  color: #566270;
+}
